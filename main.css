@@ -7,11 +7,10 @@ div {
     text-align:center;
     background-color:azure;
     border: 1px solid aquamarine;
-    padding: 30px;
 }
 
 .foo {
-    background-image: url("https://www.fangirlquest.com/wp-content/uploads/2017/10/vancouver-beautiful-british-columbia-2265.jpg");
+    background-image: url("https://lh3.googleusercontent.com/znHT1qHO2aLmOQVShlUMGaPkUvJgQNrPsgjl9SprX88uS3yMiwWAPQobsa69IMANnoGChtArdDZulAG-dSkutFiQO752zbW91zyot-f8rJuhDkP0X_Llzcb9R6G5V0aJ_K-DmoUdl_8MdD8cGncE_-gdkY_kpVgT845VwjpLMV4DSorUqo8pM9o-_w2ff2H7UXi6yvN5m_-uq6f6KIBRVaw9H-L1K0XYDnnfOPseuxGhaz9tY-UEjH_1-aXX42RWkwdZKTl2J1EVBGuviJpwpEvsr4NKrj_16PNjDIXe4S3SEZFEET_InsbToMDcCQ6zNFa49d2vldy8iTK5qX2LqFLB_-w6b8nTCZB-lZLiGVkkKX_arAkg3rwrjh6YkYNBhYeXE8QgoFv6gB4ItRhWoD41vUhQKRj3maP9SrzsUNd6IfyHnelUJiESRF1R9gyPUdELkkKOXtLPrMTcGrviTtznBytTQZDrkEl5j9X0Tzph9t8D0EhAJsjFANCJ9gTsdXMCf8H6EcCPScdsmxHQ1F7ByCeCNZyN6DYU1a_PkfgOgHIHPaY0fENsJPi1IHTp6fsN0jJzEXmkkwzshQulTfFsVUHcAB9RuDxkpCAUpT3R5PtmMSoUj9QEKyvwkIsLa5lQkpPfQ-7mCx6kv6c-8u1Qj-Nj_-rh=w2318-h1738-no");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
