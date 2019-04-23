@@ -1,4 +1,5 @@
-div {
+.foo {
+    text-align:center;
     background-color:azure;
     border: 1px solid aquamarine;
     padding: 30px;
