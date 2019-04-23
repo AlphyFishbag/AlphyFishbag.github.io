@@ -1,6 +1,14 @@
+
+
+
+
+
 div {
     text-align:center;
     background-color:azure;
     border: 1px solid aquamarine;
     padding: 30px;
+    background-image: url("https://www.fangirlquest.com/wp-content/uploads/2017/10/vancouver-beautiful-british-columbia-2265.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
