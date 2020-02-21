@@ -1,0 +1,91 @@
+.Headings{
+    color:white;
+        display: flex;
+    
+        flex-direction: space-around;
+    
+        flex-wrap:wrap;
+    
+        justify-content: space-around;
+    
+        font-family:'calibri';
+    
+    
+        
+    
+        border-width: 10px;
+    
+        
+    }
+
+    body{
+
+        background-color: black;
+
+        color:white;
+    }
+
+.MainHeading{
+
+    background-color: darkslategrey;
+
+    border-radius: 20px;
+
+    border-color: turquoise;
+
+    border-width: medium;
+}
+
+.Title{
+
+    display: flex;
+
+    justify-content: center;
+    color: white;
+
+    align-items: center;
+}
+
+.Basic_Info{
+
+    display: flex;
+
+    justify-content: center;
+
+    font-size: larger;
+
+    color: white;
+
+}
+
+li{
+
+    margin: 10px 0;
+
+    font-family: 'Calibri';
+}
+
+h4{
+
+    font-weight: normal;
+   
+}
+
+h3{
+
+    text-decoration: underline;
+}
+
+#Interests ul{
+
+    list-style: initial;
+
+    
+}
+
+#Interests li{
+
+
+    display: inline;
+
+}
