@@ -1,0 +1,109 @@
+body{
+
+
+    background-color: black;
+
+    
+}
+
+
+
+.MainHeading{
+
+    display: flex;
+    color: white;
+    justify-content: flex-center;
+    
+
+}
+
+.P1{
+
+
+    color: white;
+    display: flex;
+
+    justify-content: center;
+
+    font-family: 'calibri-light';
+
+
+}
+.Headings{
+    color:white;
+        display: flex;
+    
+        flex-direction: space-around;
+    
+        flex-wrap:wrap;
+    
+        justify-content: space-around;
+    
+        font-family:'calibri';
+    
+    
+        
+    
+        border-width: 10px;
+    
+        
+    }
+
+.P2{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'calibri-light';
+}
+
+.P3{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'calibri-light';
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Socials{
+
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    color: white;
+
+}
+
+.Socials a{
+
+    display: block;
+    text-align: start;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.Socials a:hover{
+
+
+    background-color:rgba(0, 0, 0, 0.452);
+}
