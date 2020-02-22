@@ -36,4 +36,22 @@ body{
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
   }
-
+  .Headings{
+    color:white;
+        display: flex;
+    
+        flex-direction: space-around;
+    
+        flex-wrap:wrap;
+    
+        justify-content: space-around;
+    
+        font-family:'calibri';
+    
+    
+        
+    
+        border-width: 10px;
+    
+        
+    }
