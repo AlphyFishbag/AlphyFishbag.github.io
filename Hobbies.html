@@ -52,33 +52,42 @@
     <div class="Travelling">
 
         <h2>Travelling</h2>
-        <a href="IMG_1745.JPG">1</a>
-        <a href="IMG_0110.JPG">2</a>
-        <a href="P1070082.RW2.jpg">3</a>
-        <a href="P1070167.JPG">4</a>
-        <a href="P1070307.JPG">5</a>
-      
-        <div class="slides">
-          <div id="slide-1">
-            1
+        <div id="slideshow">
+            <div>
+              <img src="P1070082.RW2.jpg" alt="mustang.jpg"><br>
+              A newer Mustang.
+            </div>
+            <div>
+              <img src="P1070167.JPG" alt="camaro.jpg"><br>
+              A modern Camaro.
+            </div>
+            <div>
+              <img src="P1070307.JPG" alt="classic.jpg"><br>
+              An oldie but a goodie!
+            </div>
+            <div>
+              <img src="classic2.jpg" alt="classic2.jpg"><br>
+              More old cars.
+            </div>
+            <div>
+              <img src="video_game_car.jpg" alt="video_game_car.jpg"><br>
+              A good renering of a classic race car.
+            </div>
           </div>
-          <div id="slide-2">
-            2
-          </div>
-          <div id="slide-3">
-            3
-          </div>
-          <div id="slide-4">
-            4
-          </div>
-          <div id="slide-5">
-            5
-          </div>
-        </div>
-      </div>
 
        
-      
+      <script>
+          $("#slideshow > div").hide();
+ 
+ setInterval(function() {
+   $('#slideshow > div:first')
+     .fadeOut(1000)
+     .next()
+     .fadeIn(1000)
+     .end()
+     .appendTo('#slideshow');
+ },  5000);
+      </script>
         
 
     </div>
