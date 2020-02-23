@@ -52,73 +52,33 @@
     <div class="Travelling">
 
         <h2>Travelling</h2>
-
-        <div class="slideshow-container">
-              
-            
-                   <div class="mySlides">
-                   <div class="numbertxt">1 / 4</div>
-                   <img src ="IMG_1745.JPG" style="width:50%" style="height: 50%;">
-                   <div class = "text"> Caption</div>
-
-               </div> 
-
-               <div class="mySlides">
-                <div class="numbertxt">2 / 4</div>
-                <img src="P1070082.RW2.jpg" style="width:50%" style="height: 50%;">
-                <div class="text">Caption Two</div>
-              </div>
-              <div class="mySlides">
-                <div class="numbertxt">3 / 4</div>
-                <img src="P1070167.JPG" style="width:50%" style="height: 50%;">
-                <div class="text">Caption Three</div>
-              </div>
-
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+        <a href="#slide-1">1</a>
+        <a href="#slide-2">2</a>
+        <a href="#slide-3">3</a>
+        <a href="#slide-4">4</a>
+        <a href="#slide-5">5</a>
+      
+        <div class="slides">
+          <div id="slide-1">
+            1
+          </div>
+          <div id="slide-2">
+            2
+          </div>
+          <div id="slide-3">
+            3
+          </div>
+          <div id="slide-4">
+            4
+          </div>
+          <div id="slide-5">
+            5
+          </div>
         </div>
+      </div>
 
-        <br>
-
-        <div style = "text-align: center;">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-
-            
-        </div>
-        <script>
-            var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-
-        </script>
+       
+      
         
 
     </div>
