@@ -72,4 +72,8 @@ text-align: center;
         animation-direction: alternate;
       }
     
-     
+     img{
+
+      border-color: orangered;
+      border-width: 10px;
+     }
