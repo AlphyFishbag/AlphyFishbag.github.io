@@ -163,34 +163,26 @@ color:white;
         margin-bottom: -40px;
     }
 }
+.Socials {
+    width: 80px; /* Set a specific width */
+    background-color: rgba(0, 0, 0, 0); /* Dark-grey background */
+  }
+  
+  .Socials a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 25px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 25px; /* Increased font-size */
+  }
+  
+  .Socials a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  
 
-.Socials{
-
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-
-}
-
-.Socials a{
-
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 30px;
-
-}
-
-
-.Socials a:hover{
-
-
-    background-color:rgba(0, 0, 0, 0.452);
-}
 
 
 
