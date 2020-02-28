@@ -74,6 +74,10 @@ text-align: center;
     
      img{
 
-      border-color: orangered;
-      border-width: 10px;
+      
+        width:auto;
+        height:auto;
+        max-height: 50%;
+        max-width: 50%;
+    
      }
