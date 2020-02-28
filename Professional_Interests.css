@@ -16,8 +16,9 @@ body{
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
-  }
-  .hvr-pulse-grow {
+  }                                                                 /* I followed a tutorial to get a hover-pulsing effect for my sub-page directories, The credit should go to w3schools.com */
+
+  .hvr-pulse-grow {                   
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -47,7 +48,7 @@ body{
     
         justify-content: space-around;
     
-        font-family:'calibri';
+        font-family:'calibri';  
     
     
         

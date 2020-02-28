@@ -2,7 +2,7 @@ body{
 
     color:white;
 
-    background-image: url(IMG_0929.JPG);
+    background-image: url(IMG_0929.JPG); /*I took this picture myself */
 
     background-repeat: no-repeat;
 
@@ -27,7 +27,7 @@ color:white;
     
 }
 
-@-webkit-keyframes hvr-pulse-grow {
+@-webkit-keyframes hvr-pulse-grow {         /* I followed a tutorial to get a hover-pulsing effect for my sub-page directories, The credit should go to w3schools.com */
     to {
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
@@ -85,7 +85,7 @@ color:white;
 }
 
 
-
+                                                                /* I followed a tutorial to get my main Text in the middle to do this animation effect, All credit for the tutorial should go to w3schools.com */
 
 .MainHeading{
 
@@ -164,8 +164,8 @@ color:white;
     }
 }
 .Socials {
-    width: 80px; /* Set a specific width */
-    background-color: rgba(0, 0, 0, 0); /* Dark-grey background */
+    width: 80px; 
+    background-color: rgba(0, 0, 0, 0); 
   }
   
   .Socials a {
@@ -173,12 +173,12 @@ color:white;
     text-align: center; 
     padding: 15px; 
     transition: all 0.3s ease;
-    color: white; /* White text color */
-    font-size: 25px; /* Increased font-size */
+    color: white; 
+    font-size: 25px; 
   }
   
   .Socials a:hover {
-    background-color: #000; /* Add a hover color */
+    background-color: #000; 
   }
   
   

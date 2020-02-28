@@ -38,7 +38,7 @@ text-align: center;
         text-align: center;
         background-color: black;
         color: white;
-    }
+    }                                       /* I followed a tutorial to get a hover-pulsing effect for my sub-page directories, The credit should go to w3schools.com */
     @-webkit-keyframes hvr-pulse-grow {
         to {
           -webkit-transform: scale(1.1);
@@ -81,3 +81,11 @@ text-align: center;
         max-width: 50%;
     
      }
+     .frame-border {
+
+      border:3px groove tomato;
+  
+      border-width: 5px;
+  
+      border-radius: 10px;
+  }
