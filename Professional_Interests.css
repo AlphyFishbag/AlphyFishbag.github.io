@@ -2,6 +2,7 @@ body{
 
     background-color: black;
     color: white;
+    text-align: center;
 
 }
 @-webkit-keyframes hvr-pulse-grow {
@@ -61,4 +62,9 @@ body{
     text-align: center;
 
     
+  }
+
+  h2{
+
+    padding: 20px;
   }
